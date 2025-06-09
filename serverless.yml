@@ -45,4 +45,4 @@ resources:
       Properties:
         BucketName: ${sls:stage}-bucket-ingesta-jr
         VersioningConfiguration:
-          Status: Enabled
+          Status: Suspended
