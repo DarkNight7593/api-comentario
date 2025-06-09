@@ -27,7 +27,7 @@ resources:
     TablaComentarios:
       Type: AWS::DynamoDB::Table
       Properties:
-        TableName: ${self:provider.environment.TABLE_NAME}
+        TableName: ${sls:stage}-t_comentarios
         AttributeDefinitions:
           - AttributeName: tenant_id
             AttributeType: S
