@@ -43,6 +43,6 @@ resources:
     BucketIngesta:
       Type: AWS::S3::Bucket
       Properties:
-        BucketName: ${sls:stage}-bucket-ingesta
+        BucketName: ${sls:stage}-bucket-ingesta-jr
         VersioningConfiguration:
           Status: Enabled
